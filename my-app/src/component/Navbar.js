@@ -19,6 +19,14 @@ export default function Navbar() {
             {/* <Link to="/">Home</Link> */}
             <a href="/contact">Contact</a>
           </li>
+          <li>
+            {/* <Link to="/">Home</Link> */}
+            <a href="/user/anil">Anil</a>
+          </li>
+          <li>
+            {/* <Link to="/">Home</Link> */}
+            <a href="/user/peter">Peter</a>
+          </li>
         </ul>
       </nav>
     </div>
