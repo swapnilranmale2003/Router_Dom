@@ -37,6 +37,10 @@ export default function Navbar() {
           {" "}
           <NavLink className="nav-link" to="/contact">Contact</NavLink>
         </li>
+        <li>
+          {" "}
+          <NavLink className="nav-link" to="/filter">Filter</NavLink>
+        </li>
       </ul>
     </div>
   );

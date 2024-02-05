@@ -4,6 +4,7 @@ import Navbar from "./component/Navbar";
 import Home from "./component/Home";
 import About from "./component/About";
 import User from "./component/User";
+import Filter from "./component/Filter";
 // import Page404 from "./component/Page404";
 function App() {
   return (
@@ -15,8 +16,10 @@ function App() {
           <Route path="/about" element={<About />} />
           {/* <Route path="/*" element={<Page404/>} /> */}
           <Route path="/user/:name" element={<User />} />
+          <Route path="/filter" element={<Filter />} />
 
           <Route path="/*" element={<Navigate to="/" />} />
+          
         </Routes>
       </BrowserRouter>
     </div>
